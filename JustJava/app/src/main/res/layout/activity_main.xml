@@ -13,17 +13,21 @@
    android:layout_marginLeft="15dp"
     android:layout_marginTop="15dp"
     android:textSize="20sp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
 
     <Button
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:text="+"
+        android:text="-"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:onClick="increase"
+        android:onClick="decrement"
         />
 
-    <TextView
+   <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2"
@@ -35,15 +39,20 @@
     <Button
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:text="-"
+        android:text="+"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:onClick="decrement"
+        android:onClick="increase"
         />
+
+
+</LinearLayout>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Price"
+        android:text="orderSummary"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:textSize="20sp"
